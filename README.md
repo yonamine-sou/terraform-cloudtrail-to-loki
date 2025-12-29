@@ -104,7 +104,7 @@ CloudTrailログをテーブル形式で見やすく表示するには、Grafana
 ### 設定手順
 
 1. **パネルを作成**: Visualization を `Table` に設定
-2. **クエリを入力**: `{__aws_log_type="s3_cloudtrail"}`
+2. **クエリを入力**: `{__aws_log_type="s3_cloudtrail"} | json`
 3. **Transform タブを開く**
 4. **Add transformation → Extract fields** を追加
    - Source: `labels`
