@@ -72,7 +72,7 @@ CloudTrailログをテーブル形式で見やすく表示するには、Grafana
 | Source | `labels` |
 | Format | `JSON` |
 | Replace all fields | `ON` |
-| Keep time | `ON` |
+| Keep time | `OFF` |
 
 ### 2. Organize fields by name（フィールド整理）
 
@@ -110,7 +110,7 @@ CloudTrailログをテーブル形式で見やすく表示するには、Grafana
    - Source: `labels`
    - Format: `JSON`
    - Replace all fields: ON
-   - Keep time: ON
+   - Keep time: OFF
 5. **Add transformation → Organize fields by name** を追加
    - Field order: Manual
    - 必要なフィールドを上部にドラッグ
